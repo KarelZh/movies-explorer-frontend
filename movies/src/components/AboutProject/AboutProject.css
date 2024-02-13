@@ -1,0 +1,167 @@
+.about {
+  max-height: 608px;
+  padding: 0 70px;
+  background-color:  #202020;
+}
+.about__info {
+  font-size: 22px;
+  font-weight: 400;
+  margin: 110px auto 23px;
+  color: white;
+}
+.about__border {
+  border-bottom: 1px solid #DADADA;
+  width: 1140px;
+  margin: 0;
+}
+.about__block {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  width: 1140px;
+  margin: 70px auto 110px;
+}
+.about__text {
+  max-width: 550px;
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.about__text__info {
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0;
+}
+.about__text__work {
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0;
+}
+.about__schema {
+  border-collapse: collapse;
+  width: 1140px;
+  margin-bottom: 110px;
+}
+.about__schema_title {
+  text-align: center;
+}
+.about__schema_texttitle1 {
+  width: 20%;
+  height: 36px;
+  background-color: #3DDC84;
+  font-size: 14px;
+  font-weight: 400;
+}
+.about__schema_texttitle2 {
+  width: 912px;
+  height: 36px;
+  background-color: #303030;
+  font-size: 14px;
+  font-weight: 400;
+  color: white;
+}
+.about__schema_text1 {
+  width: 228px;
+  height: 36px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #8B8B8B;
+}
+.about__schema_text2 {
+  width: 912px;
+  height: 36px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #8B8B8B;
+}
+@media screen and (min-width: 321px) and (max-width: 768px) {
+  .about {
+    max-height: 585px;
+    padding: 0 50px;
+  }
+  .about__info {
+    margin: 90px auto 23px;
+  }
+  .about__border {
+    width: 668px;
+  }
+  .about__block {
+    width: 668px;
+    margin: 70px auto 93px;
+  }
+  .about__text {
+    max-width: 319px;
+    height: 124px;
+  }
+  .about__text__work {
+    font-size: 12px;
+  }
+  .about__schema {
+    width: 100%;
+    margin-bottom: 90px;
+  }
+  .about__schema_texttitle2 {
+    width: 528px;
+  }
+  .about__schema_text1 {
+    width: 20%;
+  }
+  .about__schema_text2 {
+    width: 528px;
+  }
+}
+@media screen and (min-width: 100px) and (max-width: 320px) {
+  .about {
+    max-height: 641px;
+    padding: 0 18px;
+  }
+  .about__info {
+    font-size: 18px;
+    margin: 70px auto 28px;
+  }
+  .about__border {
+    width: 284px;
+  }
+  .about__block {
+    flex-direction: column;
+    justify-content: space-between;
+    width: 284px;
+    height: 272px;
+    margin: 60px auto;
+  }
+  .about__text {
+    max-width: 284px;
+    height: 108px;
+  }
+  .about__text__info {
+    font-size: 18px;
+  }
+  .about__text__work {
+    font-size: 11px;
+  }
+  .about__schema {
+    width: 284px;
+    margin-bottom: 69px;
+  }
+  .about__schema_texttitle1 {
+    width: 100px;
+    height: 35px;
+    font-size: 11px;
+  }
+  .about__schema_texttitle2 {
+    width: 184px;
+    height: 35px;
+    font-size: 11px;
+  }
+  .about__schema_text1 {
+    width: 100px;
+    height: 35px;
+    font-size: 11px;
+  }
+  .about__schema_text2 {
+    width: 184px;
+    height: 35px;
+    font-size: 11px;
+  }
+}

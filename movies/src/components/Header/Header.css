@@ -1,0 +1,195 @@
+.header {
+  padding: 0 70px;
+  max-width: 1280px;
+  min-height: 74px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #073042;
+}
+.header__background {
+  padding: 0 70px;
+  max-width: 1280px;
+  min-height: 74px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:  #202020;
+}
+.header__logo {
+  max-width: 38px;
+  max-height: 38px;
+}
+.header__object {
+  display: flex;
+  align-items: center;
+}
+.header__movies {
+  font-size: 14px;
+  font-weight: 400;
+  color: white;
+  margin-right: 20px;
+  text-decoration: none;
+}
+.header__movies:hover {
+  opacity: 70%;
+}
+.header__movies_active {
+  font-weight: 500;
+}
+.header__saved {
+  font-size: 14px;
+  font-weight: 400;
+  color: white;
+  margin-right: 50px;
+  text-decoration: none;
+}
+.header__saved:hover {
+  opacity: 70%;
+}
+.header__saved_active {
+  font-weight: 500;
+}
+.header__profile {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  color: white;
+  margin-right: 13px;
+}
+.header__profile_logo {
+  width: 30px;
+  height: 30px;
+  background-color: #0F4157;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header__profile_image {
+  max-width: 10.38px;
+  max-height: 10.67px;
+}
+.header__state {
+  background-color: #313131;
+  width: 30px;
+  height: 30px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header__nav {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+}
+.header__signup {
+  background-color: #073042;
+  border: none;
+  color: white;
+  padding: 0;
+  margin-right: 30px;
+  text-decoration: none;
+  min-height: 32px;
+  padding: 8px 0;
+}
+.header__signup:hover {
+  opacity: 70%;
+}
+.header__sign {
+  border: none;
+  color: white;
+  padding: 0;
+  margin-right: 30px;
+  background-color:  #202020;
+}
+.header__signin {
+  background-color: #3DDC84;
+  border-radius: 3px;
+  border: none;
+  min-width: 76px;
+  min-height: 32px;
+  padding: 8px 20px;
+  text-decoration: none;
+  color: black;
+}
+.header__signin:hover {
+  opacity: 70%;
+}
+.header__profile__link {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header__profile__link:hover {
+  opacity: 70%;
+}
+.header__button {
+  display: none;
+}
+@media screen and (min-width: 321px) and (max-width: 768px) {
+  .header {
+    padding: 0 30px;
+    max-width: 768px;
+  }
+  .header__background {
+    padding: 0 30px;
+    max-width: 768px;
+  }
+  .header__object {
+    display: none;
+  }
+  .header__button {
+    display: block;
+    background-color: #073042;
+    border: none;
+    padding: 0;
+    width: 44px;
+    height: 44px;
+  }
+  .header__navigate {
+    background-color: #073042;
+  }
+  .header__nav__background {
+    background-color:  #202020;
+  }
+}
+@media screen and (min-width: 100px) and (max-width: 320px) {
+  .header {
+    padding: 0 14px;
+    max-width: 320px;
+  }
+  .header__background {
+    padding: 0 14px;
+    max-width: 320px;
+  }
+  .header__object {
+    display: none;
+  }
+  .header__button {
+    display: block;
+    background-color: #073042;
+    border: none;
+    padding: 0;
+    width: 40px;
+    height: 43px;
+  }
+  .header__nav__background {
+    background-color:  #202020;
+  }
+  .header__nav {
+    font-size: 10px;
+  }
+  .header__signup {
+    margin-right: 14px;
+    min-height: 26px;
+    padding: 5px 0;
+  }
+  .header__signin {
+    min-width: 54px;
+    min-height: 26px;
+    padding: 5px 12px;
+  }
+}
