@@ -7,10 +7,10 @@ import Portfolio from "../Portfolio/Portfolio";
 import Promo from "../Promo/Promo";
 import Techs from "../Techs/Techs";
 
-function Main() {
+function Main({onEditMenu}) {
   return (
     <>
-      <Header />
+      <Header onEditMenu={onEditMenu}/>
       <Promo />
       <AboutProject />
       <Techs />

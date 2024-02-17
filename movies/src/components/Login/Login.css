@@ -1,4 +1,7 @@
 .login {
+  min-width: 1280px;
+}
+.login__section {
   max-width: 396px;
   display: flex;
   flex-direction: column;
@@ -12,7 +15,7 @@
   font-size: 24px;
   font-weight: 500;
   color: white;
-  margin: 40px auto 16px 0;
+  margin: 36px auto 16px 0;
 }
 .login__form {
   display: flex;
@@ -33,7 +36,6 @@
   border-bottom: 1px solid #424242;
   color: white;
   padding: 0;
-  outline: none;
 }
 .login__form_type_password {
   background-color:  #202020;
@@ -44,13 +46,12 @@
   border-bottom: 1px solid #424242;
   color: white;
   padding: 0;
-  outline: none;
 }
 .login__form_type_span {
   color: #EE3465;
   font-size: 10px;
   font-weight: 400;
-  margin: 6px 0 179px;
+  margin: 6px 0 216px;
 }
 .login__submit {
   width: 396px;
@@ -89,21 +90,34 @@
 @media screen and (min-width: 321px) and (max-width: 768px) {
   .login {
     margin: 232px auto;
+    min-width: 768px;
   }
 }
 @media screen and (min-width: 100px) and (max-width: 320px) {
   .login {
-    max-width: 320px;
+    min-width: 320px;
     margin: 56px auto;
-    align-items: center;
+    text-align: center;
+  }
+  .login__section {
+    min-width: 320px;
+    margin: 50px auto;
   }
   .login__greetings {
-    margin: 50px auto 80px;
+    margin: 48px auto 53px;
+  }
+  .login__form {
+    max-width: 260px;
+    margin: 0 auto;
+    text-align: left;
   }
   .login__submit {
     width: 260px;
     font-size: 12px;
     font-weight: 400;
+  }
+  .login__form_type_span {
+    margin: 6px 0 303px;
   }
   .login__footer {
     font-size: 12px;

@@ -1,20 +1,19 @@
 function Techs() {
   return (
-    <section className="techs">
-      <p className="techs__info">Технологии</p>
-      <p className="techs__border" />
-      <p className="techs__tecnology">7 технологий</p>
+    <main className="techs">
+      <h2 className="techs__info">Технологии</h2>
+      <h3 className="techs__tecnology">7 технологий</h3>
       <p className="techs__text">На курсе веб-разработки мы освоили технологии, которые применили в дипломном проекте.</p>
-      <div className="techs__block">
-        <p className="techs__work">HTML</p>
-        <p className="techs__work">CSS</p>
-        <p className="techs__work">JS</p>
-        <p className="techs__work">React</p>
-        <p className="techs__work">Git</p>
-        <p className="techs__work">Express.js</p>
-        <p className="techs__work">mongoDB</p>
-      </div>
-    </section>
+      <ul className="techs__block">
+        <li className="techs__work">HTML</li>
+        <li className="techs__work">CSS</li>
+        <li className="techs__work">JS</li>
+        <li className="techs__work">React</li>
+        <li className="techs__work">Git</li>
+        <li className="techs__work">Express.js</li>
+        <li className="techs__work">mongoDB</li>
+      </ul>
+    </main>
   );
 };
 export default Techs;

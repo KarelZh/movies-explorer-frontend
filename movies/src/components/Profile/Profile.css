@@ -3,11 +3,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  max-width: 1140px;
 }
 .profile__name {
   font-size: 24px;
   font-weight: 500;
   color: white;
+  margin: 0;
 }
 .profile__form {
   width: 410px;
@@ -16,10 +18,11 @@
   justify-content: center;
 }
 .profile__form__block {
+  width: 410px;
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid #424242;
-  margin-top: 120px;
+  margin: 107px auto 0;
 }
 .profile__form__section {
   display: flex;
@@ -101,7 +104,7 @@
   cursor: pointer;
 }
 .profile__form_type_redaction {
-  margin: 200px 0 16px;
+  margin: 206px 0 16px;
   padding: 0;
   border: none;
   background-color:  #202020;
@@ -126,6 +129,9 @@
   opacity: 70%;
   cursor: pointer;
 }
+.profile__exit {
+  text-align: center;
+}
 @media screen and (min-width: 321px) and (max-width: 768px) {
   .profile {
     padding: 236px 0 0;
@@ -134,7 +140,10 @@
     margin: 0;
   }
   .profile__form__block {
-    margin-top: 96px;
+    margin-top: 80px;
+  }
+  .profile__form_type_redaction {
+    margin: 196px 0 16px;
   }
 }
 @media screen and (min-width: 100px) and (max-width: 320px) {
@@ -145,7 +154,8 @@
     width: 260px;
   }
   .profile__form__block {
-    margin-top: 80px;
+    width: 260px;
+    margin: 65px auto 0;
   }
   .profile__form_type_name {
     width: 220px;
@@ -154,7 +164,7 @@
     width: 220px;
   }
   .profile__form_type_redaction {
-    margin: 380px 0 16px;
+    margin: 365px 0 11px;
     font-size: 12px;
   }
   .profile__form_type_exit {

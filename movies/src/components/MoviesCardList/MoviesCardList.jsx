@@ -5,16 +5,22 @@ import MoviesCard from "../MoviesCard/MoviesCard";
 
 function MoviesCardList() {
   return (
-    <section className="content">
-      <div className="content__movie">
+    <main className="content">
+      <ul className="content__movie">
         <MoviesCard />
         <MoviesCard />
         <MoviesCard />
         <MoviesCard />
         <MoviesCard />
         <MoviesCard />
-      </div>
-    </section>
+        <MoviesCard />
+        <MoviesCard />
+        <MoviesCard />
+        <MoviesCard />
+        <MoviesCard />
+        <MoviesCard />
+      </ul>
+    </main>
   );
 };
 export default MoviesCardList;

@@ -7,18 +7,18 @@ const saved = true;
 
 function MoviesCard() {
   return (
-    <section className="movie">
+    <main className="movie">
       <div className="movie__title">
-        <p className="movie__title_text">В погоне за Бенкси</p>
+        <h2 className="movie__title_text">В погоне за Бенкси</h2>
         <p className="movie__title_time">0ч 42м</p>
       </div>
-      <img className='movie__img' src={card} alt='Карточка' />
+      <img className='movie__img' src={card} alt='Изображение фильма' />
       {saved ? (
-        <button className='movie__button'>{isLike ? <img src={save} /> : 'Сохранить'}</button>
+        <button type='button' className='movie__button'>{isLike ? <img src={save} /> : 'Сохранить'}</button>
       ) : (
-        <button className='movie__button'>x</button>
+        <button type='button' className='movie__button'>x</button>
       )}
-    </section>
+    </main>
   );
 };
 export default MoviesCard;

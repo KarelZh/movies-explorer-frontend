@@ -1,6 +1,6 @@
 .header {
   padding: 0 70px;
-  max-width: 1280px;
+  min-width: 1140px;
   min-height: 74px;
   display: flex;
   justify-content: space-between;
@@ -9,7 +9,7 @@
 }
 .header__background {
   padding: 0 70px;
-  max-width: 1280px;
+  width: 1140px;
   min-height: 74px;
   display: flex;
   justify-content: space-between;
@@ -19,6 +19,9 @@
 .header__logo {
   max-width: 38px;
   max-height: 38px;
+}
+.header__logo:hover {
+  opacity: 70%;
 }
 .header__object {
   display: flex;
@@ -83,6 +86,7 @@
   font-size: 12px;
   font-weight: 400;
   line-height: 16px;
+  margin: 0;
 }
 .header__signup {
   background-color: #073042;
@@ -131,12 +135,12 @@
 }
 @media screen and (min-width: 321px) and (max-width: 768px) {
   .header {
+    min-width: 708px;
     padding: 0 30px;
-    max-width: 768px;
   }
   .header__background {
     padding: 0 30px;
-    max-width: 768px;
+    width: 708px;
   }
   .header__object {
     display: none;
@@ -159,11 +163,12 @@
 @media screen and (min-width: 100px) and (max-width: 320px) {
   .header {
     padding: 0 14px;
+    min-width: 292px;
     max-width: 320px;
   }
   .header__background {
     padding: 0 14px;
-    max-width: 320px;
+    max-width: 292px;
   }
   .header__object {
     display: none;

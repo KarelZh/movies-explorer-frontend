@@ -2,11 +2,11 @@ import { Link } from "react-router-dom";
 
 function PageNotFound() {
   return (
-    <div className="notfound">
+    <main className="notfound">
       <p className="notfound__error">404</p>
       <p className="notfound__text">Страница не найдена</p>
-      <Link to='/' className="notfound__link">Назад</Link>
-    </div>
+      <a href='javascript:history.back()' className="notfound__link">Назад</a>
+    </main>
   );
 };
 export default PageNotFound;

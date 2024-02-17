@@ -1,13 +1,13 @@
 import { Link, NavLink } from 'react-router-dom';
 import profile from '../../images/profile.svg';
 
-const isLoged = true;
+const isLoged = false;
 
-function Navigate() {
+function Navigate({isOpen, onClose}) {
   return (
-    <div className={`navigate ${isLoged ? 'navigate_opened' : ''}`}>
+    <main className={`navigate ${isOpen ? 'navigate_opened' : ''}`}>
       <div className='navigate__popup'>
-        <button className="navigate__exit">+</button>
+        <button type='button' onClick={onClose} className="navigate__exit">+</button>
         <div className="navigate__nav">
           <NavLink to='/' className={({isActive}) => `navigate__nav__home ${isActive ? "navigate__nav__home_active" : ""}`}>Главная</NavLink>
           <NavLink to='/movies' className={({isActive}) => `navigate__nav__movies ${isActive ? "navigate__nav__home_active" : ""}`}>Фильмы</NavLink>
@@ -22,7 +22,7 @@ function Navigate() {
         </div>
         </Link>
       </div>
-    </div>
+    </main>
   );
 };
 export default Navigate;

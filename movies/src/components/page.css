@@ -1,12 +1,13 @@
 .page {
   max-width: 1280px;
   min-width: 320px;
+  height: 100%;
   background-color:  #202020;
   margin: 0 auto;
   font-family: 'Inter', Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
 }
-@media screen and (min-width: 321px) and (max-width: 768px) {
-  .page {
-    max-width: 768px;
-  }
+#root {
+  flex: 1 0 auto;
 }

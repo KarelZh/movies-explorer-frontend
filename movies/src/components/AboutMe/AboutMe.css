@@ -1,14 +1,15 @@
 .aboutMe {
   padding: 0 70px;
+  min-width: 1140px;
 }
 .aboutMe__info {
   font-size: 22px;
   font-weight: 400;
   color: white;
   margin: 110px auto 23px;
-}
-.aboutMe__border {
+  letter-spacing: -1px;
   border-bottom: 1px solid #DADADA;
+  min-height: 50px;
 }
 .aboutMe__profile {
   display: flex;
@@ -33,7 +34,7 @@
   font-weight: 400;
   line-height: 22px;
   max-width: 600px;
-  margin: 0 auto 99px;
+  margin: 0 auto 120px;
 }
 .about__git {
   font-size: 14px;
@@ -44,9 +45,10 @@
 @media screen and (min-width: 321px) and (max-width: 768px) {
   .aboutMe {
     padding: 0 50px;
+    min-width: 668px;
   }
   .aboutMe__info {
-    margin: 90px auto 23px;
+    margin: 95px auto 23px;
   }
   .aboutMe__name {
     font-size: 40px;
@@ -60,7 +62,7 @@
     font-size: 12px;
     line-height: 18px;
     max-width: 364px;
-    margin: 0 auto 87px;
+    margin: 0 auto 105px;
   }
   .aboutMe__foto {
     width: 255px;
@@ -70,10 +72,11 @@
 @media screen and (min-width: 100px) and (max-width: 320px) {
   .aboutMe {
     padding: 0 14px;
+    min-width: 292px;
   }
   .aboutMe__info {
     font-size: 18px;
-    margin: 70px auto 28px;
+    margin: 25px auto 28px;
   }
   .aboutMe__profile {
     flex-direction: column-reverse;
@@ -95,6 +98,6 @@
     font-size: 11px;
     line-height: 16px;
     max-width: 292px;
-    margin: 0 auto 40px;
+    margin: 0 auto 60px;
   }
 }

@@ -1,14 +1,22 @@
 .checkbox {
-  padding: 0 70px;
+  min-width: 1140px;
+  margin: 24px 0 38px;
+  border-bottom: 1px solid #AAAAAA;
+  min-height: 64px;
 }
 .checkbox__label {
   display: inline-block;
+  cursor: pointer;
+}
+.checkbox__label:hover {
+  opacity: 70%;
 }
 .checkbox__input {
   opacity: 0;
   width: 0;
   height: 0;
   appearance: none;
+  margin: 0;
 }
 .checkbox__span {
   display: inline-block;
@@ -18,6 +26,7 @@
   line-height: 18px;
   color: white;
   padding-left: 50px;
+  margin: 0;
 }
 .checkbox__span::before {
   display: block;
@@ -50,24 +59,21 @@
   background-color: white;
   margin-left: 3px;
 }
-.checkbox__border {
-  margin: 44px auto 90px;
-  border-bottom: 1px solid #AAAAAA;
-}
 @media screen and (min-width: 321px) and (max-width: 768px) {
   .checkbox {
-    padding: 0 30px;
+    padding: 0;
+    min-width: 708px;
+    min-height: 70px;
   }
 }
 @media screen and (min-width: 100px) and (max-width: 320px) {
   .checkbox {
-    padding: 0 14px;
+    padding: 0;
+    min-width: 292px;
+    min-height: 83px;
   }
   .checkbox__span {
     font-size: 11px;
     line-height: 18px;
-  }
-  .checkbox__border {
-    margin: 64px auto 50px;
   }
 }

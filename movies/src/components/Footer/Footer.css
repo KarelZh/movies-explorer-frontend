@@ -1,7 +1,9 @@
 .footer {
   max-height: 172px;
-  padding: 0 70px;
-  margin-top: 125px;
+  min-width: 1140px;
+  padding: 110px 70px 0;
+  margin: 15px auto 0;
+  flex-shrink: 0;
 }
 .footer__text {
   font-size: 13px;
@@ -9,10 +11,8 @@
   color: #8B8B8B;
   text-align: center;
   margin: 0;
-}
-.footer__border {
   border-bottom: 1px solid #424242;
-  margin: 20px auto;
+  height: 38px;
 }
 .footer__info {
   font-size: 13px;
@@ -25,38 +25,52 @@
 .footer__teacher {
   display: flex;
   align-items: center;
+  margin: 0;
+  list-style-type: none;
+}
+.footer__year {
+  margin: 0;
 }
 .footer__yandex {
   margin: 0 20px 0 0;
 }
+.footer__git {
+  text-decoration: none;
+  color: white;
+  margin: 0;
+}
+.footer__git:hover {
+  opacity: 70%;
+}
 @media screen and (min-width: 321px) and (max-width: 768px) {
   .footer {
-    padding: 0 50px;
-    margin-top: 90px;
+    padding: 80px 30px 0;
+    margin: 0 auto 0;
+    min-width: 708px;
   }
 }
 @media screen and (min-width: 100px) and (max-width: 320px) {
   .footer {
     max-height: 253px;
     padding: 0 10px;
-    margin-top: 145px;
+    margin-top: 130px;
+    min-width: 300px;
   }
   .footer__text {
     font-size: 12px;
-  }
-  .footer__border {
-    margin: 21px auto;
   }
   .footer__info {
     font-size: 12px;
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
+    height: 117px;
   }
   .footer__teacher {
     flex-direction: column;
+    padding: 0;
   }
   .footer__yandex {
-    margin: 0;
+    margin: 30px 0 12px;
   }
 }

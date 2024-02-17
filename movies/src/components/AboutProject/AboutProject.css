@@ -1,5 +1,6 @@
 .about {
   max-height: 608px;
+  min-width: 1140px;
   padding: 0 70px;
   background-color:  #202020;
 }
@@ -8,11 +9,9 @@
   font-weight: 400;
   margin: 110px auto 23px;
   color: white;
-}
-.about__border {
+  letter-spacing: -1px;
   border-bottom: 1px solid #DADADA;
-  width: 1140px;
-  margin: 0;
+  min-height: 50px;
 }
 .about__block {
   color: white;
@@ -31,11 +30,14 @@
 .about__text__info {
   font-size: 20px;
   font-weight: 400;
+  line-height: 24px;
   margin: 0;
+  letter-spacing: -0.9px;
 }
 .about__text__work {
   font-size: 14px;
   font-weight: 400;
+  line-height: 20px;
   margin: 0;
 }
 .about__schema {
@@ -77,18 +79,19 @@
 }
 @media screen and (min-width: 321px) and (max-width: 768px) {
   .about {
+    min-width: 668px;
     max-height: 585px;
     padding: 0 50px;
   }
   .about__info {
-    margin: 90px auto 23px;
+    margin: 40px auto 23px;
   }
   .about__border {
     width: 668px;
   }
   .about__block {
     width: 668px;
-    margin: 70px auto 93px;
+    margin: 70px 0 93px;
   }
   .about__text {
     max-width: 319px;
@@ -115,10 +118,11 @@
   .about {
     max-height: 641px;
     padding: 0 18px;
+    min-width: 284px;
   }
   .about__info {
     font-size: 18px;
-    margin: 70px auto 28px;
+    margin: 25px auto 28px;
   }
   .about__border {
     width: 284px;
@@ -127,15 +131,16 @@
     flex-direction: column;
     justify-content: space-between;
     width: 284px;
-    height: 272px;
-    margin: 60px auto;
+    height: 285px;
+    margin: 60px auto 48px;
   }
   .about__text {
     max-width: 284px;
-    height: 108px;
+    height: 118px;
   }
   .about__text__info {
     font-size: 18px;
+    letter-spacing: -0.65px;
   }
   .about__text__work {
     font-size: 11px;
