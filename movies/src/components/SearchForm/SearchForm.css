@@ -1,8 +1,8 @@
 .search {
   padding: 70px 70px 24px;
-  min-width: 1140px;
+  max-width: 1140px;
 }
-.search__form__filter {
+.search__form-filter {
   border: 1.5px solid #AAA;
   border-radius: 8px;
   max-width: 1140px;
@@ -44,19 +44,19 @@
 @media screen and (min-width: 321px) and (max-width: 768px) {
   .search {
     padding: 70px 30px 23px;
-    min-width: 708px;
+    max-width: 708px;
   }
 }
 @media screen and (min-width: 100px) and (max-width: 320px) {
   .search {
     padding: 70px 14px 30px;
-    min-width: 292px;
+    max-width: 292px;
   }
   .search__form {
     max-width: 292px;
     max-height: 58px;
   }
-  .search__form__filter {
+  .search__form-filter {
     max-width: 292px;
     max-height: 56px;
   }

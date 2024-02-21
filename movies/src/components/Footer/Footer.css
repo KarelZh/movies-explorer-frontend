@@ -1,6 +1,6 @@
 .footer {
   max-height: 172px;
-  min-width: 1140px;
+  max-width: 1140px;
   padding: 110px 70px 0;
   margin: 15px auto 0;
   flex-shrink: 0;
@@ -33,6 +33,11 @@
 }
 .footer__yandex {
   margin: 0 20px 0 0;
+  text-decoration: none;
+  color: white;
+}
+.footer__yandex:hover {
+  opacity: 70%;
 }
 .footer__git {
   text-decoration: none;
@@ -46,7 +51,7 @@
   .footer {
     padding: 80px 30px 0;
     margin: 0 auto 0;
-    min-width: 708px;
+    max-width: 708px;
   }
 }
 @media screen and (min-width: 100px) and (max-width: 320px) {
@@ -54,7 +59,7 @@
     max-height: 253px;
     padding: 0 10px;
     margin-top: 130px;
-    min-width: 300px;
+    max-width: 300px;
   }
   .footer__text {
     font-size: 12px;

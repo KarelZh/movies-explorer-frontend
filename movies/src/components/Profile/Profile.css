@@ -3,7 +3,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 1140px;
+  max-width: 410px;
+  margin: 0 auto;
 }
 .profile__name {
   font-size: 24px;
@@ -12,32 +13,33 @@
   margin: 0;
 }
 .profile__form {
-  width: 410px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin: 0 auto;
 }
-.profile__form__block {
-  width: 410px;
+.profile__form-block {
+  max-width: 410px;
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid #424242;
-  margin: 107px auto 0;
+  margin: 107px 0 0;
 }
-.profile__form__section {
+.profile__form-section {
   display: flex;
   justify-content: space-between;
 }
-.profile__form__text {
+.profile__form-text {
   font-size: 11px;
   font-weight: 500;
   color: white;
   margin: 16px 0 0;
   text-align: center;
 }
-.profile__form_type_name {
+.profile__form-block-name {
   border: none;
-  width: 370px;
+  width: 90%;
   background-color:  #202020;
   height: 46px;
   padding: 0;
@@ -45,22 +47,26 @@
   text-align: right;
   font-size: 11px;
   font-weight: 400;
+  outline: none;
 }
-.profile__form_type_name::-webkit-input-placeholder{
+.profile__form-block-name:focus {
+  border-bottom: 1px solid #3456F3;
+}
+.profile__form-block-name::-webkit-input-placeholder{
 	text-align:left;
 }
-.profile__form_type_name:-moz-placeholder{
+.profile__form-block-name:-moz-placeholder{
 	text-align:left;
 }
-.profile__form_type_name::-moz-placeholder{
+.profile__form-block-name::-moz-placeholder{
 	text-align:left;
 }
-.profile__form_type_name:-ms-input-placeholder{
+.profile__form-block-name:-ms-input-placeholder{
 	text-align:left;
 }
-.profile__form_type_email {
+.profile__form-section-email {
   border: none;
-  width: 370px;
+  width: 90%;
   background-color:  #202020;
   height: 46px;
   padding: 0;
@@ -68,17 +74,21 @@
   text-align: right;
   font-size: 11px;
   font-weight: 400;
+  outline: none;
 }
-.profile__form_type_email::-webkit-input-placeholder{
+.profile__form-section-email:focus {
+  border-bottom: 1px solid #3456F3;
+}
+.profile__form-section-email::-webkit-input-placeholder{
 	text-align:left;
 }
-.profile__form_type_email:-moz-placeholder{
+.profile__form-section-email:-moz-placeholder{
 	text-align:left;
 }
-.profile__form_type_email::-moz-placeholder{
+.profile__form-section-email::-moz-placeholder{
 	text-align:left;
 }
-.profile__form_type_email:-ms-input-placeholder{
+.profile__form-section-email:-ms-input-placeholder{
 	text-align:left;
 }
 .profile__form_type_span {
@@ -103,7 +113,7 @@
   opacity: 80%;
   cursor: pointer;
 }
-.profile__form_type_redaction {
+.profile__form-redaction {
   margin: 206px 0 16px;
   padding: 0;
   border: none;
@@ -112,11 +122,11 @@
   font-size: 13px;
   font-weight: 400;
 }
-.profile__form_type_redaction:hover {
+.profile__form-redaction:hover {
   opacity: 70%;
   cursor: pointer;
 }
-.profile__form_type_exit {
+.profile__form-exit {
   margin: 0 0 70px;
   padding: 0;
   border: none;
@@ -125,7 +135,7 @@
   font-size: 13px;
   font-weight: 500;
 }
-.profile__form_type_exit:hover {
+.profile__form-exit:hover {
   opacity: 70%;
   cursor: pointer;
 }
@@ -136,13 +146,17 @@
   .profile {
     padding: 236px 0 0;
   }
+  .profile__form {
+    max-width: 410px;
+  }
   .profile__name {
     margin: 0;
   }
-  .profile__form__block {
+  .profile__form-block {
+    max-width: 410px;
     margin-top: 80px;
   }
-  .profile__form_type_redaction {
+  .profile__form-redaction {
     margin: 196px 0 16px;
   }
 }
@@ -151,23 +165,23 @@
     padding: 70px 0 0;
   }
   .profile__form {
-    width: 260px;
+    max-width: 260px;
   }
-  .profile__form__block {
-    width: 260px;
-    margin: 65px auto 0;
+  .profile__form-block {
+    max-width: 260px;
+    margin: 65px 0 0;
   }
-  .profile__form_type_name {
-    width: 220px;
+  .profile__form-block-name {
+    max-width: 220px;
   }
-  .profile__form_type_email {
-    width: 220px;
+  .profile__form-section-email {
+    max-width: 220px;
   }
-  .profile__form_type_redaction {
+  .profile__form-redaction {
     margin: 365px 0 11px;
     font-size: 12px;
   }
-  .profile__form_type_exit {
+  .profile__form-exit {
     margin: 0 0 40px;
     font-size: 12px;
   }

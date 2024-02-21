@@ -1,7 +1,9 @@
 .movie {
   max-width: 360px;
-  height: 319px;
+  min-width: 100px;
+  max-height: 319px;
   background-color: #222222;
+  text-align: center;
 }
 .movie__title {
   max-width: 360px;
@@ -9,14 +11,14 @@
   justify-content: space-between;
   padding: 18px;
 }
-.movie__title_text {
+.movie__title-text {
   font-size: 15px;
   font-weight: 500;
   line-height: 18px;
   color: white;
   margin: 0;
 }
-.movie__title_time {
+.movie__title-time {
   font-size: 13px;
   font-weight: 400;
   line-height: 18px;
@@ -40,38 +42,33 @@
   cursor: pointer;
 }
 .movie__img {
-  width: 360px;
-  height: 200px;
+  width: 100%;
 }
 @media screen and (min-width: 321px) and (max-width: 768px) {
   .movie {
     max-width: 342px;
-    height: 309px;
+    max-height: 309px;
   }
   .movie__title {
     max-width: 342px;
   }
-  .movie__img {
-    max-width: 342px;
-    height: 190px;
-  }
   .movie__button {
-    margin: 18px 121px;
+    margin: 18px auto;
   }
 }
 @media screen and (min-width: 100px) and (max-width: 320px) {
   .movie {
-    min-width: 300px;
+    max-width: 300px;
     height: 271px;
   }
   .movie__title {
     max-width: 300px;
     padding: 14px;
   }
-  .movie__title_text {
+  .movie__title-text {
     font-size: 12px;
   }
-  .movie__title_time {
+  .movie__title-time {
     font-size: 10px;
   }
   .movie__img {

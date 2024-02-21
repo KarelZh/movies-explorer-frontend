@@ -1,7 +1,7 @@
 .techs {
   background-color: #272727;
   max-height: 625px;
-  min-width: 1140px;
+  max-width: 1140px;
   padding: 90px 70px 0;
 }
 .techs__info {
@@ -37,12 +37,12 @@
   display: flex;
   justify-content: center;
   margin: 0 auto;
-  width: 690px;
+  max-width: 690px;
   letter-spacing: -1px;
   padding: 0;
 }
 .techs__work {
-  min-width: 90px;
+  width: 100vw;
   min-height: 60px;
   background-color: #303030;
   border-radius: 10px;
@@ -59,12 +59,12 @@
 @media screen and (min-width: 321px) and (max-width: 768px) {
   .techs {
     background-color: #272727;
-    min-width: 668px;
+    max-width: 668px;
     max-height: 567px;
     padding: 80px 50px 0;
   }
   .techs__border {
-    width: 668px;
+    max-width: 668px;
   }
   .techs__tecnology {
     margin: 80px auto 22px;
@@ -76,19 +76,19 @@
   }
   .techs__work {
     font-size: 12px;
-    min-width: 84px;
+    width: 100vw;
     min-height: 57px;
     margin: 85px 5px;
   }
   .techs__block {
-    width: 648px;
+    max-width: 648px;
   }
 }
 @media screen and (min-width: 100px) and (max-width: 320px) {
   .techs {
     height: 651px;
     padding: 55px 18px 0;
-    min-width: 284px;
+    max-width: 284px;
   }
   .techs__info {
     font-size: 18px;

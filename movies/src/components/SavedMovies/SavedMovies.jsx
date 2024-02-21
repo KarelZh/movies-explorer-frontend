@@ -6,10 +6,16 @@ import SearchForm from "../SearchForm/SearchForm";
 function SavedMovies({onEditMenu}) {
   return (
     <>
-      <Header onEditMenu={onEditMenu}/>
-      <SearchForm />
-      <MoviesCardList />
-      <Footer />
+      <header>
+        <Header onEditMenu={onEditMenu}/>
+      </header>
+      <main>
+        <SearchForm />
+        <MoviesCardList />
+      </main>
+      <footer>
+        <Footer />
+      </footer>
     </>
   );
 };

@@ -46,21 +46,21 @@
     display: flex;
     flex-direction: column;
   }
-  .navigate__nav__home {
+  .navigate__nav-home {
     text-decoration: none;
     color: white;
     margin: 0 auto 24px;
   }
-  .navigate__nav__home_active {
+  .navigate__nav-home_active {
     text-decoration: none;
     border-bottom: 2px solid;
   }
-  .navigate__nav__movies {
+  .navigate__nav-movies {
     color: white;
     text-decoration: none;
     margin: 0 auto 24px;
   }
-  .navigate__nav__saved {
+  .navigate__nav-saved {
     color: white;
     text-decoration: none;
     margin: 0 auto;
@@ -73,7 +73,7 @@
     align-items: center;
     margin: 400px auto 92px;
   }
-  .navigate__account__text {
+  .navigate__account-text {
     color: white;
     font-size: 14px;
     font-weight: 500;
@@ -132,21 +132,21 @@
     display: flex;
     flex-direction: column;
   }
-  .navigate__nav__home {
+  .navigate__nav-home {
     text-decoration: none;
     color: white;
     margin: 0 auto 24px;
   }
-  .navigate__nav__home_active {
+  .navigate__nav-home_active {
     text-decoration: none;
     border-bottom: 2px solid;
   }
-  .navigate__nav__movies {
+  .navigate__nav-movies {
     color: white;
     text-decoration: none;
     margin: 0 auto 24px;
   }
-  .navigate__nav__saved {
+  .navigate__nav-saved {
     color: white;
     text-decoration: none;
     margin: 0 auto;
@@ -159,7 +159,7 @@
     align-items: center;
     margin: 250px auto 0;
   }
-  .navigate__account__text {
+  .navigate__account-text {
     color: white;
     font-size: 14px;
     font-weight: 500;

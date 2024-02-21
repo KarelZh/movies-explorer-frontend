@@ -10,13 +10,19 @@ import Techs from "../Techs/Techs";
 function Main({onEditMenu}) {
   return (
     <>
-      <Header onEditMenu={onEditMenu}/>
-      <Promo />
-      <AboutProject />
-      <Techs />
-      <AboutMe />
-      <Portfolio />
-      <Footer />
+      <header>
+        <Header onEditMenu={onEditMenu}/>
+      </header>
+      <main>
+        <Promo />
+        <AboutProject />
+        <Techs />
+        <AboutMe />
+        <Portfolio />
+      </main>
+      <footer>
+        <Footer />
+      </footer>
     </>
   );
 }

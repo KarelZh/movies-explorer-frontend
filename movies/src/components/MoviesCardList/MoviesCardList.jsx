@@ -5,8 +5,8 @@ import MoviesCard from "../MoviesCard/MoviesCard";
 
 function MoviesCardList() {
   return (
-    <main className="content">
-      <ul className="content__movie">
+    <section className="content">
+      <div className="content__movie">
         <MoviesCard />
         <MoviesCard />
         <MoviesCard />
@@ -19,8 +19,8 @@ function MoviesCardList() {
         <MoviesCard />
         <MoviesCard />
         <MoviesCard />
-      </ul>
-    </main>
+      </div>
+    </section>
   );
 };
 export default MoviesCardList;

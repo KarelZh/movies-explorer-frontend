@@ -1,8 +1,8 @@
 .register {
-  min-width: 1280px;
+  max-width: 1280px;
 }
 .register__section {
-  width: 396px;
+  max-width: 396px;
   display: flex;
   flex-direction: column;
   margin: 70px auto;
@@ -22,13 +22,13 @@
   display: flex;
   flex-direction: column;
 }
-.register__form_type_text {
+.register__form-text {
   font-size: 10px;
   font-weight: 400;
   color: #8B8B8B;
   margin: 24px 0 0 0;
 }
-.register__form_type_name {
+.register__form-name {
   background-color:  #202020;
   border: none;
   font-size: 14px;
@@ -36,8 +36,12 @@
   height: 30px;
   border-bottom: 1px solid #424242;
   color: white;
+  outline: none;
 }
-.register__form_type_email {
+.register__form-name:focus {
+  border-bottom: 1px solid #3456F3;
+}
+.register__form-email {
   background-color:  #202020;
   border: none;
   font-size: 14px;
@@ -45,8 +49,12 @@
   height: 30px;
   border-bottom: 1px solid #424242;
   color: white;
+  outline: none;
 }
-.register__form_type_password {
+.register__form-email:focus {
+  border-bottom: 1px solid #3456F3;
+}
+.register__form-password {
   background-color:  #202020;
   border: none;
   font-size: 14px;
@@ -54,15 +62,19 @@
   height: 30px;
   border-bottom: 1px solid #424242;
   color: white;
+  outline: none;
 }
-.register__form_type_span {
+.register__form-password:focus {
+  border-bottom: 1px solid #3456F3;
+}
+.register__form-span {
   color: #EE3465;
   font-size: 10px;
   font-weight: 400;
   margin: 6px 0 143px;
 }
 .register__submit {
-  width: 396px;
+  max-width: 396px;
   height: 45px;
   border-radius: 3px;
   border: none;
@@ -80,35 +92,35 @@
   font-weight: 400;
   display: flex;
 }
-.register__footer__text {
+.register__footer-text {
   color: #8B8B8B;
   margin: 16px 6px 0 auto;
 }
-.register__footer__link {
+.register__footer-link {
   color: #4285F4;
   margin: 16px auto 0 0;
   text-decoration: none;
 }
-.register__logo__link {
+.register__section-link {
   text-decoration: none;
 }
-.register__footer__link:hover {
+.register__footer-link:hover {
   opacity: 70%;
 }
 @media screen and (min-width: 321px) and (max-width: 768px) {
   .register {
     margin: 232px auto;
-    min-width: 768px;
+    max-width: 768px;
   }
 }
 @media screen and (min-width: 100px) and (max-width: 320px) {
   .register {
-    min-width: 320px;
+    max-width: 320px;
     align-items: center;
     margin: 56px auto;
   }
   .register__section {
-    width: 320px;
+    max-width: 320px;
     text-align: center;
     margin: 56px auto 0;
   }
@@ -131,13 +143,13 @@
   .register__footer {
     font-size: 12px;
   }
-  .register__footer__text {
+  .register__footer-text {
     margin: 14px 7px 0 auto;
   }
-  .register__footer__link {
+  .register__footer-link {
     margin: 14px auto 0 0;
   }
-  .register__form_type_span {
+  .register__form-span {
     margin: 6px 0 235px;
   }
 }

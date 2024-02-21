@@ -1,5 +1,5 @@
 .checkbox {
-  min-width: 1140px;
+  max-width: 1140px;
   margin: 24px 0 38px;
   border-bottom: 1px solid #AAAAAA;
   min-height: 64px;
@@ -62,14 +62,14 @@
 @media screen and (min-width: 321px) and (max-width: 768px) {
   .checkbox {
     padding: 0;
-    min-width: 708px;
+    max-width: 708px;
     min-height: 70px;
   }
 }
 @media screen and (min-width: 100px) and (max-width: 320px) {
   .checkbox {
     padding: 0;
-    min-width: 292px;
+    max-width: 292px;
     min-height: 83px;
   }
   .checkbox__span {

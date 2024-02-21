@@ -1,5 +1,10 @@
-.content__button {
-  min-width: 1140px;
+.page__block {
+  max-width: 1280px;
+  margin: 45px 70px 35px;
+}
+.page__block-button {
+  width: 100%;
+  display: block;
   border-radius: 6px;
   border: none;
   min-height: 36px;
@@ -8,21 +13,18 @@
   font-weight: 500;
   color: white;
   padding: 0;
-  margin: 45px 70px 35px;
 }
-.content__button:hover {
+.page__block-button:hover {
   opacity: 80%;
   cursor: pointer;
 }
 @media screen and (min-width: 321px) and (max-width: 768px) {
-  .content__button {
-    min-width: 708px;
+  .page__block {
     margin: 70px 30px 80px;
   }
 }
 @media screen and (min-width: 100px) and (max-width: 320px) {
-  .content__button {
-    min-width: 300px;
+  .page__block {
     margin: 65px 10px 27px;
   }
 }

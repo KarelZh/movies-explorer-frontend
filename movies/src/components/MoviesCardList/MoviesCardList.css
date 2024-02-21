@@ -1,9 +1,9 @@
 .content {
   padding: 0 70px;
-  min-width: 1140px;
+
 }
 .content__movie {
-  max-width: 1140px;
+
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 32px 28px;
@@ -14,7 +14,7 @@
     padding: 0 30px ;
   }
   .content__movie {
-    max-width: 708px;
+
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 35px 24px;
@@ -23,7 +23,7 @@
 @media screen and (min-width: 100px) and (max-width: 320px) {
   .content {
     padding: 0 10px;
-    min-width: 300px;
+    max-width: 300px;
     margin: 130px auto 0;
   }
   .content__movie {

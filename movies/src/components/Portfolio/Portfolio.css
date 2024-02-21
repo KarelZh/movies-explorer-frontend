@@ -1,6 +1,6 @@
 .portfolio {
   padding: 100px 70px 0 70px;
-  min-width: 1140px;
+  max-width: 1140px;
 }
 .portfolio__text {
   font-size: 18px;
@@ -56,7 +56,7 @@
 @media screen and (min-width: 321px) and (max-width: 768px) {
   .portfolio {
     padding: 90px 50px 0 50px;
-    min-width: 668px;
+    max-width: 668px;
   }
   .portfolio__website {
     font-size: 28px;
@@ -69,7 +69,7 @@
 @media screen and (min-width: 100px) and (max-width: 320px) {
   .portfolio {
     padding: 70px 14px 0;
-    min-width: 292px;
+    max-width: 292px;
   }
   .portfolio__text {
     font-size: 14px;

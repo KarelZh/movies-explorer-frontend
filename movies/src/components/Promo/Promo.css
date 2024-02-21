@@ -12,7 +12,7 @@
   flex-direction: column;
   margin: 75px 0;
 }
-.promo__info_project {
+.promo__info-project {
   max-width: 640px;
   font-size: 50px;
   font-weight: 400;
@@ -21,7 +21,7 @@
   color: white;
   margin: 0 0 36px;
 }
-.promo__info_text {
+.promo__info-text {
   opacity: 0.5;
   max-width: 310px;
   font-size: 13px;
@@ -30,7 +30,7 @@
   color: white;
   margin: 0 0 146px;
 }
-.promo__info_border {
+.promo__info-border {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -40,14 +40,14 @@
   border: 1px solid #FFF;
   border-color: rgba(255, 255, 255, 0.6);
 }
-.promo__info_nav {
+.promo__info-nav {
   font-size: 12px;
   font-weight: 400;
   line-height: 16px;
   color: white;
   text-decoration: none;
 }
-.promo__info_nav:hover {
+.promo__info-nav:hover {
   opacity: 70%;
 }
 .promo__image {
@@ -72,17 +72,17 @@
     text-align: center;
     margin: 48px auto;
   }
-  .promo__info_project {
+  .promo__info-project {
     max-width: 680px;
     font-size: 40px;
     line-height: 50px;
     margin-bottom: 22px;
   }
-  .promo__info_text {
+  .promo__info-text {
     max-width: 260px;
     margin: 0 auto 92px;
   }
-  .promo__info_border {
+  .promo__info-border {
     margin: 0 auto 76px;
   }
 }
@@ -105,18 +105,18 @@
     text-align: center;
     margin: 44px auto;
   }
-  .promo__info_project {
+  .promo__info-project {
     max-width: 300px;
     font-size: 30px;
     line-height: 38px;
     margin: 0 0 24px;
     letter-spacing: -1px;
   }
-  .promo__info_text {
+  .promo__info-text {
     max-width: 260px;
     margin: 0 auto 80px;
   }
-  .promo__info_border {
+  .promo__info-border {
     margin: 0 auto 30px;
   }
 }
