@@ -20,7 +20,7 @@
   color: white;
   display: flex;
   justify-content: space-between;
-  margin: 0 auto 20px;
+  margin: 20px auto;
 }
 .footer__teacher {
   display: flex;

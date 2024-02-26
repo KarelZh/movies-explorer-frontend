@@ -19,9 +19,9 @@ function Header({onEditMenu}) {
           </div>
         </section>
           ) : (
-            <section className={`${isReg ? 'header' : 'header-background'}`}>
+            <section className={`${isReg ? 'header' : 'header header-background'}`}>
               <Link to='/'><img className="header__logo" src={logo} alt="Главная страница" /></Link>
-              <button type='button' onClick={onEditMenu} className='header__button'><img src={nav} alt='Кнопка навигации' className={`${isReg ? 'header__navigate' : 'header__nav__background'}`}/></button>
+              <button type='button' onClick={onEditMenu} className='header__button'><img src={nav} alt='Кнопка навигации' className={`${isReg ? 'header__navigate' : 'header__nav-background'}`}/></button>
               <nav className='header__object'>
                 <NavLink to='/movies' className={({isActive}) => `header__movies ${isActive ? "header__movies_active" : ""}`}>Фильмы</NavLink>
                 <NavLink to='/saved-movies' className={({isActive}) => `header__saved ${isActive ? "header__saved_active" : ""}`}>Сохранённые фильмы</NavLink>

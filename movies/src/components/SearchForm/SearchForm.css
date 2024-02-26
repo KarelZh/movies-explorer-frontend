@@ -23,6 +23,10 @@
   width: 100%;
   max-height: 70px;
   color: white;
+  outline: none;
+}
+.search__input:focus {
+  border: 1px solid #3456F3;
 }
 .search__button {
   color: white;

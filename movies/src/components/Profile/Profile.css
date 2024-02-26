@@ -53,16 +53,16 @@
   border-bottom: 1px solid #3456F3;
 }
 .profile__form-block-name::-webkit-input-placeholder{
-	text-align:left;
+	text-align:right;
 }
 .profile__form-block-name:-moz-placeholder{
-	text-align:left;
+	text-align:right;
 }
 .profile__form-block-name::-moz-placeholder{
-	text-align:left;
+	text-align:right;
 }
 .profile__form-block-name:-ms-input-placeholder{
-	text-align:left;
+	text-align:right;
 }
 .profile__form-section-email {
   border: none;
@@ -80,16 +80,16 @@
   border-bottom: 1px solid #3456F3;
 }
 .profile__form-section-email::-webkit-input-placeholder{
-	text-align:left;
+	text-align:right;
 }
 .profile__form-section-email:-moz-placeholder{
-	text-align:left;
+	text-align:right;
 }
 .profile__form-section-email::-moz-placeholder{
-	text-align:left;
+	text-align:right;
 }
 .profile__form-section-email:-ms-input-placeholder{
-	text-align:left;
+	text-align:right;
 }
 .profile__form_type_span {
   margin: 180px 0 20px;

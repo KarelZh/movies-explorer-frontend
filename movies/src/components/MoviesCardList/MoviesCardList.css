@@ -1,9 +1,10 @@
 .content {
   padding: 0 70px;
-
+  max-width: 1280px;
+  margin: 16px auto 0;
 }
 .content__movie {
-
+  max-width: 1280px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 32px 28px;
