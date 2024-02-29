@@ -1,0 +1,19 @@
+body,html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+.page {
+  max-width: 1280px;
+  min-width: 320px;
+  height: 100%;
+  background-color:  #202020;
+  margin: 0 auto;
+  font-family: 'Inter', Arial, sans-serif;
+}
+#root {
+  flex: 1 0 auto;
+}

@@ -1,0 +1,105 @@
+.portfolio {
+  padding: 100px 70px 0 70px;
+  max-width: 1140px;
+}
+.portfolio__text {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #8B8B8B;
+  margin: 0;
+}
+.portfolio__info {
+  margin-top: 30px;
+  padding: 0;
+}
+.portfolio__website {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #424242;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: -1px;
+  height: 88px;
+  text-decoration: none;
+}
+.portfolio__website:hover {
+  opacity: 70%;
+}
+.portfolio__static {
+  margin: 20px auto 19px 0;
+  list-style-type: none;
+}
+.portfolio__adaptiv {
+  margin: 20px auto 19px 0;
+  list-style-type: none;
+}
+.portfolio__arrow {
+  margin: 25px 0;
+}
+.portfolio__application {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: -1px;
+  margin: 0 auto 65px;
+  text-decoration: none;
+}
+.portfolio__application:hover {
+  opacity: 70%;
+}
+@media screen and (min-width: 321px) and (max-width: 768px) {
+  .portfolio {
+    padding: 90px 50px 0 50px;
+    max-width: 668px;
+  }
+  .portfolio__website {
+    font-size: 28px;
+  }
+  .portfolio__application {
+    font-size: 28px;
+    margin: 0 auto 60px;
+  }
+}
+@media screen and (min-width: 100px) and (max-width: 320px) {
+  .portfolio {
+    padding: 70px 14px 0;
+    max-width: 292px;
+  }
+  .portfolio__text {
+    font-size: 14px;
+  }
+  .portfolio__info {
+    margin: 30px auto 0;
+  }
+  .portfolio__arrow {
+    margin: 10px 0;
+  }
+  .portfolio__website {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    height: 55px;
+  }
+  .portfolio__static {
+    margin: 10px auto 0 0;
+  }
+  .portfolio__adaptiv {
+    margin: 20px auto 20px 0;
+  }
+  .portfolio__application {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    height: 55px;
+    margin: 25px auto 0 0;
+  }
+}
